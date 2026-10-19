@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "category": "Web",
+    "description": "A five-page responsive portfolio that introduces my background, skills, and experience, with projects loaded dynamically from a JSON file.",
+    "technologies": [ "HTML", "CSS", "JavaScript", "Bootstrap", "JSON" ]
+  },
+  {
+    "title": "Business Data Analytics Case Study",
+    "category": "Programming",
+    "description": "A semester long project for cleaning, manipulating, filtering, and organizing data. Idea was to come up with a solution for a real-world business problem.",
+    "technologies": [ "Python", "Google Colab", "PowerBI" ]
+  },
+  {
+    "title": "Credit Memo",
+    "category": "Business",
+    "description": "A case study to determine the creditworthiness of a potential borrower and key credit risks of said borrower. Created a comprehensive credit memo for a given company.",
+    "technologies": [ "Excel" ]
+  },
+  {
+    "title": "Financial Data Dashboard",
+    "category": "Data",
+    "description": "A dashboard that summarizes financial data and trends in a clear, visual format.",
+    "technologies": [ "Excel", "SQL" ]
+  },
+  {
+    "title": "Industry Credit Research Memos",
+    "category": "Business",
+    "description": "Industry research memos written from a commercial banking perspective, covering industry conditions and key credit risks.",
+    "technologies": [ "Python", "Financial Analysis" ]
+  },
+  {
+    "title": "Data Visualization Tool",
+    "category": "Data",
+    "description": "A tool for creating interactive visualizations of data sets.",
+    "technologies": [ "Python", "Matplotlib", "Seaborn" ]
+  }
+]

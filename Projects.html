@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ETHAN STONE PORTFOLIO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg site-navbar" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">ETHAN STONE</a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#mainNav"
+                        aria-controls="mainNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience.html">Experience/Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Projects</h1>
+                <p class="page-subtitle mb-0">
+                    Selected work in web development, data, programming, and business.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light-gray" aria-label="Project list">
+            <div class="container">
+
+                <div class="row g-3 align-items-center mb-4">
+                    <div class="col-lg-7">
+                        <div id="filter-buttons" class="d-flex flex-wrap gap-2" role="group" aria-label="Filter projects by category">
+                            <button type="button" class="btn filter-btn active" data-category="All" aria-pressed="true">All</button>
+                            <button type="button" class="btn filter-btn" data-category="Web" aria-pressed="false">Web</button>
+                            <button type="button" class="btn filter-btn" data-category="Data" aria-pressed="false">Data</button>
+                            <button type="button" class="btn filter-btn" data-category="Programming" aria-pressed="false">Programming</button>
+                            <button type="button" class="btn filter-btn" data-category="Business" aria-pressed="false">Business</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <label for="project-search" class="visually-hidden">Search projects</label>
+                        <input type="search" id="project-search" class="form-control search-input"
+                               placeholder="Search by title, description, or technology..."
+                               autocomplete="off">
+                    </div>
+                    <div id="project-status" class="text-muted mb-3" aria-live="polite">
+                        Loading projects...>
+                    </div>
+                    <div id="project-grid" class="row g-4"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 ETHAN STONE All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/Script1.js"></script>
+
+</body>
+</html>
